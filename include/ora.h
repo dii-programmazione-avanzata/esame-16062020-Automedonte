@@ -5,6 +5,7 @@
 #ifndef ESAME_TPA_ORA_H
 #define ESAME_TPA_ORA_H
 
+#include "assert.h"
 
 class Ora {
 protected:

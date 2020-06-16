@@ -3,3 +3,10 @@
 //
 
 #include "../include/docente.h"
+
+
+#include "../include/docente.h"
+
+Docente::Docente(Iscritto iscritto) : Iscritto(iscritto) {}
+
+Docente::Docente(const Docente &other) : Iscritto(other) {}
