@@ -35,7 +35,7 @@ public:
 
     const Aula &getAula() const;
 
-    void print();
+    void printL();
 };
 
 

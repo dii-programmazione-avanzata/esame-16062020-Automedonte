@@ -75,7 +75,7 @@ void Corso::print() {
     cout << "Nome docente: " << docente.getNome() << " " << docente.getCognome() << endl;
     cout << "Lezioni: " << endl;
     for (int i = 0; i < index_l; ++i) {
-        list_lezioni[index_l].print();
+        list_lezioni[i].printL();
         cout << endl;
     }
 }

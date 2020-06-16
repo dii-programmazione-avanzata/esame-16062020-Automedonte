@@ -29,7 +29,7 @@ const Aula &Lezione::getAula() const {
     return aula;
 }
 
-void Lezione::print() {
+void Lezione::printL() {
     cout << data.getGiorno() << "/" << data.getMese() << "/"<< data.getAnno() << ", ";
     cout << ora.getOre() << ":" << ora.getMinuti() << ", ";
     cout << "aula " << aula.getId();

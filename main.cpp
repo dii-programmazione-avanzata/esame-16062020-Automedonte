@@ -33,10 +33,10 @@ int main() {
 
    Percorso test (1, corso);
 
-   //test.addCorso(prova);
+   test.addCorso(prova);
 
 
-    prova.print();
+    test.printP();
 
     return 0;
 }
