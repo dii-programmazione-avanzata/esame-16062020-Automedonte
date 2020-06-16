@@ -9,17 +9,18 @@
 #include "ora.h"
 #include "aula.h"
 
-class Corso;
+
 
 class Lezione {
 protected:
-  //  Corso corso;
     Data data;
     Ora ora;
     Ora durata;
     Aula aula;
 
 public:
+    Lezione() {} //costruttore di default
+
     Lezione(Data data, Ora ora, Ora durata, Aula aula);
 
     Lezione(const Lezione &other);

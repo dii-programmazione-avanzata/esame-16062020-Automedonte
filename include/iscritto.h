@@ -16,6 +16,8 @@ protected:
     int matricola;
 
 public:
+    Iscritto() {}
+
     Iscritto(string nome, string cognome, int matricola);
 
     Iscritto(const Iscritto & other);

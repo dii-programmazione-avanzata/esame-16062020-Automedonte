@@ -12,6 +12,8 @@ protected:
     int posti;
 
 public:
+    Aula() {}
+
     Aula(int ID, int posti);
 
     Aula(const Aula & other);

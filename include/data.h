@@ -13,6 +13,8 @@ protected:
     int anno;
 
 public:
+    Data() {}
+
     Data(int giorno, int mese, int anno) : giorno(giorno), mese(mese), anno(anno) {}
 
     Data(const Data & other) : giorno(other.giorno), mese(other.mese), anno(other.anno) {}

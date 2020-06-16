@@ -13,6 +13,8 @@ protected:
     int minuti;
 
 public:
+    Ora() {}
+
     Ora(int ore, int minuti) : ore(ore), minuti(minuti) {}
 
     Ora(const Ora & other) : ore(other.ore), minuti(other.minuti) {}

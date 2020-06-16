@@ -10,6 +10,8 @@
 
 class Studente : public Iscritto {
 public:
+    Studente() : Iscritto() {}
+
     Studente(Iscritto iscritto);
 
     Studente(const Studente & other);
