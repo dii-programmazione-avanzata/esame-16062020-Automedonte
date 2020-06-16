@@ -35,7 +35,7 @@ void Percorso::addCorso(Corso corso) {
 }
 
 void Percorso::printP() {
-    for (int i = 0; i <= index_c; ++i) {
+    for (int i = 0; i < index_c; ++i) {
         list_corsi[i].print();
         cout << endl << endl;
     }
@@ -43,7 +43,7 @@ void Percorso::printP() {
 
 void Percorso::corsiInsegnatiD(Docente doc) {
     cout << "Corsi tenuti da " << doc.getNome() << " " << doc.getCognome() << ":" << endl;
-    for (int i = 0; i < index_c; ++i) {
+    for (int i = 0; i <= index_c; ++i) {
         if (list_corsi[i].corsi_insegnanti(doc)) {
             cout << list_corsi[i].getName() << endl;
         }
@@ -52,10 +52,25 @@ void Percorso::corsiInsegnatiD(Docente doc) {
 
 void Percorso::corsiInsegnatiA(Aula aula) {
     cout << "Corsi tenuti nell'aula " << aula.getId() << endl;
-    for (int i = 0; i < index_c; ++i) {
+    for (int i = 0; i <= index_c; ++i) {
         if (list_corsi[i].corso_aula(aula)) {
             cout << list_corsi[i].getName() << endl;
         }
     }
+}
+
+bool Percorso::checkPosti() {
+    //Nota: per questo controllo viene sfruttato il fatto di conoscere a prescindere il numero
+    // degli studenti ns che fanno parte di un corso, senza doverli "assegnare".
+
+    bool flag = true;
+    for (int i = 0; i <= index_c; ++i) {
+        if (list_corsi[i].getAula()->getPosti() < list_corsi[i].getNS()) flag = false;
+    }
+    return flag;
+}
+
+bool Percorso::checkTiming() {
+    return false;
 }
 

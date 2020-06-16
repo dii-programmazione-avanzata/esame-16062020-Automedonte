@@ -30,6 +30,10 @@ public:
 
     void corsiInsegnatiA(Aula aula);
 
+    bool checkPosti();
+
+    bool checkTiming(); //Non definita per mancanza di tempo
+
 
 };
 #endif //ESAME_TPA_PERCORSO_H

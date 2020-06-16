@@ -35,6 +35,8 @@ public:
 
     int getIndexl() {return index_l;}
 
+    int getNS() {return ns;}
+
 
     void cambiaDocente(Docente docente);
 
