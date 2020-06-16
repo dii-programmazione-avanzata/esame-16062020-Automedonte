@@ -3,6 +3,8 @@
 //
 
 #include "../include/lezione.h"
+#include "iostream"
+using namespace std;
 
 
 Lezione::Lezione(Data data, Ora ora, Ora durata, Aula aula) :
@@ -25,6 +27,13 @@ const Ora &Lezione::getDurata() const {
 
 const Aula &Lezione::getAula() const {
     return aula;
+}
+
+void Lezione::print() {
+    cout << data.getGiorno() << "/" << data.getMese() << "/"<< data.getAnno() << ", ";
+    cout << ora.getOre() << ":" << ora.getMinuti() << ", ";
+    cout << "aula " << aula.getId();
+
 }
 
 

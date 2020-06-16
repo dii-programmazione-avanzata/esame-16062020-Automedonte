@@ -12,6 +12,7 @@
 
 class Corso {
 protected:
+    string nome; //nome del corso
     Docente docente;
     int ns; //numero di studenti
     int index_s; //indice inizializzazione studenti
@@ -22,7 +23,7 @@ protected:
     int anno;
 
 public:
-    Corso(const Docente &docente, int ns, int nl, int anno);
+    Corso(string nome, const Docente &docente, int ns, int nl, int anno);
 
     Corso(const Corso & other);
 
@@ -33,15 +34,15 @@ public:
 
     void cambiaDocente(Docente docente);
 
-    void aggiungiStudente(Studente studente);
+    void aggiungiStudente(const Studente& studente);
 
-    void aggiungiLezione(Lezione lezione);
+    void aggiungiLezione(const Lezione& lezione);
 
     void print();
 
-    bool corsi_insegnanti(Docente);
+    bool corsi_insegnanti(const Docente& doc);
 
-    bool corso_aula(Aula);
+    bool corso_aula(const Aula& aula);
 
     Docente getDocente();
 

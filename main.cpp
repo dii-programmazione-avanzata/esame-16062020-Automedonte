@@ -4,6 +4,7 @@
 
 #include "iostream"
 #include "include/docente.h"
+#include "include/corso.h"
 
 
 int main() {
@@ -12,7 +13,12 @@ int main() {
 
     Docente y (x);
 
-    std::cout << y.getNome();
+    Corso prova ("ciao", y, 10, 20, 2);
+
+    prova.aggiungiStudente(x);
+   // prova.aggiungiLezione(lez)
+
+    prova.print();
 
     return 0;
 }

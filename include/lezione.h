@@ -34,6 +34,8 @@ public:
     const Ora &getDurata() const;
 
     const Aula &getAula() const;
+
+    void print();
 };
 
 
