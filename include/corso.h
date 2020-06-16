@@ -23,13 +23,17 @@ protected:
     int anno;
 
 public:
+    Corso() {}
+
     Corso(string nome, const Docente &docente, int ns, int nl, int anno);
 
     Corso(const Corso & other);
 
     ~Corso();
 
+    string getName() {return nome;}
 
+    int getIndexl() {return index_l;}
 
 
     void cambiaDocente(Docente docente);

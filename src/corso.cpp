@@ -23,11 +23,11 @@ Corso::Corso(const Corso &other) :
     list_studenti = new Studente[ns];
     list_lezioni = new Lezione[nl];
 
-    for (int i = 0; i < ns; ++i) {
+    for (int i = 0; i <= index_s; ++i) {
         list_studenti[i] = other.list_studenti[i];
     }
 
-    for (int i = 0; i < nl; ++i) {
+    for (int i = 0; i <= index_l; ++i) {
         list_lezioni[i] = other.list_lezioni[i];
     }
 
@@ -94,16 +94,19 @@ bool Corso::corso_aula(const Aula& aula) {
 }
 
 Docente Corso::getDocente() {
+    cout << "Corso tenuto da: " << docente.getNome() << " " << docente.getCognome();
     return docente;
 }
 
 Aula *Corso::getAula() {
     //Nota: questo metodo elenca tutte le aule inserite, anche ripetendole
     Aula *list_aula = new Aula[index_l];
-
+    cout << "Sequenza di aule occupate: " << endl;
     for (int i = 0; i <= index_l; ++i) {
 
         list_aula[i] = list_lezioni[i].getAula();
+
+        cout << list_aula[i].getId() << endl;
     }
     return list_aula;
 }

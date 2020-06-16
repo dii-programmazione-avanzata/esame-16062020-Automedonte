@@ -13,4 +13,4 @@ add_executable(Esame_TPA
         include/studente.h
         src/docente.cpp
         include/docente.h
-        src/aula.cpp include/aula.h src/lezione.cpp include/lezione.h src/corso.cpp include/corso.h)
+        src/aula.cpp include/aula.h src/lezione.cpp include/lezione.h src/corso.cpp include/corso.h src/percorso.cpp include/percorso.h)
