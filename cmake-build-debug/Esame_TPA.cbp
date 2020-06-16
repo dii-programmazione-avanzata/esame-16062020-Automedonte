@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Esame_TPA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Esame_TPA">
+				<Option output="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Esame_TPA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 Esame_TPA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Esame_TPA/fast">
+				<Option output="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Esame_TPA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 Esame_TPA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/aula.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/corso.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/data.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/docente.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/iscritto.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/lezione.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/ora.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/percorso.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/include/studente.h">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/main.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/aula.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/corso.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/docente.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/iscritto.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/lezione.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/percorso.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/src/studente.cpp">
+			<Option target="Esame_TPA"/>
+		</Unit>
+		<Unit filename="/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

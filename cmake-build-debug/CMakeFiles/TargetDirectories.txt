@@ -1,0 +1,3 @@
+/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcello/Documents/GitHub/esame-16062020-Automedonte/cmake-build-debug/CMakeFiles/Esame_TPA.dir
